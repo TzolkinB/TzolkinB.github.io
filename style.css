@@ -195,4 +195,68 @@ footer p {
         font-size: .5em;
     }*/
 
+}st login: Wed Dec  9 19:42:32 on ttys000
+Kim-Bells-MacBook:TzolkinB.github.io flamez4kb$ cd .
+Kim-Bells-MacBook:TzolkinB.github.io flamez4kb$ cd ..
+Kim-Bells-MacBook:Desktop flamez4kb$ ls
+Buddhism			Music				SkillCrush
+Docs to keep on USB		Photos				TTS_Front_End
+Gallifry			Post NCE Score.pdf		TaxForms.pdf
+Github				Resume2014.pdf			TzolkinB.github.io
+LinuxCommandCheatSheet.png	Returns				pin.jpg
+LinuxCommandsCheatSheet.png	Reynolds family tree2014.pdf
+Moviedbang.png			SarahSk.jpg
+Kim-Bells-MacBook:Desktop flamez4kb$ cd Github/
+Kim-Bells-MacBook:Github flamez4kb$ ls
+GreenGeek		Paycheck_budget		Round Social Icons	news
+PaulaTTS		Portfolio		blogalong		quizapp
+Kim-Bells-MacBook:Github flamez4kb$ cd Portfolio/
+Kim-Bells-MacBook:Portfolio flamez4kb$ ls
+Bell_Kim-Resumeclear.pdf	contact.html			peru10.jpg
+Moviedbang.png			github@2x.png			perutrail.jpg
+README.md			index.html			style.css
+TechTalentBlog.png		linked-in@2x.png		twitter@2x.png
+about.html			makboatresize.jpg		whiskers.jpg
+Kim-Bells-MacBook:Portfolio flamez4kb$ vim style.css 
+
+
+
+
+
+
+
+
+
+
+footer p {
+    float: left;
+    /*padding-left: 70%;*/
+    margin-top: 10px;
+    font-size: 1em;
 }
+
+
+footer a,
+footer p {
+    color: #fff;
+}
+
+
+/* Media Queries, start collapsing once gets to certain pixels */
+
+@media screen and (max-width: 768px){
+    .features img {
+        max-width: 90%;
+        margin: auto;
+    }
+    div.intro {
+        margin-right: 5%;
+        margin-top: 10%;
+    }
+
+    .navbar-collapse a{
+        font-size: 1em;
+    }
+}
+
+
