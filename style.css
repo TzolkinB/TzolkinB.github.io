@@ -1,0 +1,196 @@
+.navbar-custom {
+    background-color: #384A56;
+}
+
+.navbar-fixed-top {
+    height: 70px;
+}
+
+.navbar-toggle {
+  position: relative;
+  float: right;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  background-color: white;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+.navbar-brand {
+    padding-top: 0;
+}
+
+.navbar-collapse ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 1%;
+    float:right;
+}
+.navbar-collapse a {  
+    color: #ffffff;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.5em;
+}
+
+.navbar-collapse li a:hover {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.navbar-text {
+    font-family:'Kaushan Script', cursive;
+    color: #ffffff;
+    font-size: 3.5em;
+    margin-top: 0;
+    text-decoration: none;
+}
+
+.navbar-text a:hover {
+    text-decoration: none;
+}
+.navbar-text a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+body {
+    padding-top: 70px;
+}
+
+body#home {
+    background: url("perutrail.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
+    background-size: 100% 100%}
+
+body#about {
+        background: url("peru10.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
+        background-size: 100% 100%;
+}
+
+body#contact {
+        background: url("makboatresize.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
+        background-size: 100% 100%;
+}
+
+h1 {
+    color: black;
+    font-family: 'Droid Serif', serif;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+}
+
+div.intro {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 25px;
+    font-family: 'Droid Serif', serif;
+    font-weight: 400;
+    font-size: 1em;
+    float: right;
+    margin: 5% 20%;
+    padding: 1%;
+    position: relative;
+    text-align: left;
+    width: 350px;
+}
+
+.intro h3 {
+    background: none repeat scroll 0 0 #457289;
+    border-radius: 5px;
+    font-family: 'Droid Serif', serif;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    padding: 2%;
+}
+
+.instruction {
+    font-family: 'Droid Serif', serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.wrap {
+    margin-bottom: 75px;
+}
+
+.center {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 7px;
+    font-family: 'Droid Serif', serif;
+    font-weight: 400;
+    margin: 15px auto;
+    padding: 20px;
+    position: relative;
+    text-align: left;
+    width: 500px;
+}
+
+.row {
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+.row ul:hover img{
+    -webkit-transform:scale(4.25); /* Safari and Chrome */
+     transform:scale(4.25);
+     z-index: 1; 
+     position:relative;
+     padding-top: 5%;
+}
+
+
+footer.container-fluid{
+    background-color: #6f8693;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    margin:0;
+}
+
+footer ul li {
+    display: inline-block;
+    list-style: none;
+    float:right;
+    padding: 0.5%;
+
+}
+
+footer p {
+    float: left;
+    /*padding-left: 70%;*/
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+
+footer a,
+footer p {
+    color: #fff;
+}
+
+/* Media Queries, start collapsing once gets to certain pixels */
+
+@media screen and (max-width: 768px){
+    .features img {
+        max-width: 90%;
+        margin: auto;
+    }
+    div.intro {
+        margin-right: 5%;
+        margin-top: 10%;
+    }
+
+    .navbar-collapse a{
+        font-size: 1em;
+    }    
+}
